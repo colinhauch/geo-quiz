@@ -1,0 +1,12 @@
+[
+  {
+    "id": "flags",
+    "name": "Flags of the World",
+    "description": "Identify countries by their flags.",
+    "questionCount": 22,
+    "tags": ["flags", "countries"],
+    "tagGroup": "political",
+    "difficulty": "easy",
+    "imageRequired": true
+  }
+]

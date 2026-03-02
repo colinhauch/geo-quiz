@@ -1,0 +1,156 @@
+[
+  {
+    "id": "flag-us",
+    "country": "United States",
+    "isoCode": "us",
+    "tags": ["north-america", "americas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-gb",
+    "country": "United Kingdom",
+    "isoCode": "gb",
+    "tags": ["europe", "western-europe"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-fr",
+    "country": "France",
+    "isoCode": "fr",
+    "tags": ["europe", "western-europe"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-de",
+    "country": "Germany",
+    "isoCode": "de",
+    "tags": ["europe", "western-europe"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-it",
+    "country": "Italy",
+    "isoCode": "it",
+    "tags": ["europe", "southern-europe"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-es",
+    "country": "Spain",
+    "isoCode": "es",
+    "tags": ["europe", "southern-europe"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-jp",
+    "country": "Japan",
+    "isoCode": "jp",
+    "tags": ["asia", "east-asia"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-cn",
+    "country": "China",
+    "isoCode": "cn",
+    "tags": ["asia", "east-asia"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-in",
+    "country": "India",
+    "isoCode": "in",
+    "tags": ["asia", "south-asia"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-br",
+    "country": "Brazil",
+    "isoCode": "br",
+    "tags": ["south-america", "americas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-ru",
+    "country": "Russia",
+    "isoCode": "ru",
+    "tags": ["asia", "europe", "eurasia"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-ca",
+    "country": "Canada",
+    "isoCode": "ca",
+    "tags": ["north-america", "americas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-au",
+    "country": "Australia",
+    "isoCode": "au",
+    "tags": ["oceania"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-mx",
+    "country": "Mexico",
+    "isoCode": "mx",
+    "tags": ["north-america", "americas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-za",
+    "country": "South Africa",
+    "isoCode": "za",
+    "tags": ["africa", "southern-africa"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-eg",
+    "country": "Egypt",
+    "isoCode": "eg",
+    "tags": ["africa", "northern-africa"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-ng",
+    "country": "Nigeria",
+    "isoCode": "ng",
+    "tags": ["africa", "western-africa"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-ke",
+    "country": "Kenya",
+    "isoCode": "ke",
+    "tags": ["africa", "eastern-africa"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-ar",
+    "country": "Argentina",
+    "isoCode": "ar",
+    "tags": ["south-america", "americas"],
+    "difficulty": "easy"
+  },
+  {
+    "id": "flag-nl",
+    "country": "Netherlands",
+    "isoCode": "nl",
+    "tags": ["europe", "western-europe"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-se",
+    "country": "Sweden",
+    "isoCode": "se",
+    "tags": ["europe", "northern-europe"],
+    "difficulty": "medium"
+  },
+  {
+    "id": "flag-ch",
+    "country": "Switzerland",
+    "isoCode": "ch",
+    "tags": ["europe", "central-europe"],
+    "difficulty": "medium"
+  }
+]
