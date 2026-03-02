@@ -35,7 +35,7 @@ export default function QuizQuestion({
           const isSelected = option === selectedAnswer
           const isCorrectAnswer = option === question.correctAnswer
 
-          let buttonClass = 'p-4 text-left border-2 rounded-lg font-medium transition '
+          let buttonClass = 'w-full p-4 text-left border-2 rounded-lg font-medium transition '
 
           if (!answered) {
             buttonClass += 'border-gray-200 hover:border-indigo-400 hover:bg-indigo-50 cursor-pointer'
