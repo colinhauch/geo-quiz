@@ -5,7 +5,7 @@ import QuizQuestion from './QuizQuestion'
 
 export default function Quiz() {
   const navigate = useNavigate()
-  const { recordSession } = useStats()
+  const { recordSession, recordAttempt } = useStats()
   const [queue, setQueue] = useState([])
   const [currentIndex, setCurrentIndex] = useState(0)
   const [sessionAttempts, setSessionAttempts] = useState([])
@@ -59,6 +59,7 @@ export default function Quiz() {
     }
 
     setSessionAttempts([...sessionAttempts, attempt])
+    recordAttempt(attempt)
   }
 
   const handleNext = () => {

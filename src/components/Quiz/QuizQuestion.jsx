@@ -1,3 +1,5 @@
+import { useMemo } from 'react'
+
 export default function QuizQuestion({
   question,
   answered,
@@ -5,8 +7,10 @@ export default function QuizQuestion({
   isCorrect,
   onAnswer
 }) {
-  // Get all answer options
-  const options = [question.correctAnswer, ...question.distractors].sort(() => Math.random() - 0.5)
+  // Memoize options so they don't reshuffle on re-render
+  const options = useMemo(() => {
+    return [question.correctAnswer, ...question.distractors].sort(() => Math.random() - 0.5)
+  }, [question.id])
 
   return (
     <div className="bg-white rounded-lg shadow-lg p-8">
